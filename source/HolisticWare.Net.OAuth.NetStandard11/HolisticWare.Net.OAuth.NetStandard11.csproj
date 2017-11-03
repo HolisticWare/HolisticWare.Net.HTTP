@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <DefaultItemExcludes>$(DefaultItemExcludes);.DS_Store</DefaultItemExcludes>
+    <AssemblyName>HolisticWare.Net.OAuth</AssemblyName>
+    <RootNamespace>HolisticWare.Net.OAuth</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Requests" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Net\HTTP\OAuth\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="..\HolisticWare.Net.OAuth\Net\HTTP\Client.Fluent.API.cs" />
+    <Compile Remove="..\HolisticWare.Net.OAuth\Net\HTTP\Client.Fluent.API.cs" />
+    <Compile Remove="..\HolisticWare.Net.OAuth\Net\HTTP\Client.Fluent.API.cs" />
+    <Compile Remove="..\HolisticWare.Net.OAuth\Net\HTTP\Client.Fluent.API.cs" />
+    <Compile Remove="..\HolisticWare.Net.OAuth\Net\HTTP\Client.Fluent.API.cs" />
+    <Compile Remove="..\HolisticWare.Net.OAuth\Net\HTTP\Client.Fluent.API.cs" />
+    <Compile Remove="..\HolisticWare.Net.OAuth\Net\HTTP\Client.Fluent.API.cs" />
+    <Compile Remove="..\HolisticWare.Net.OAuth\Net\HTTP\Client.Fluent.API.cs" />
+    <Compile Remove="..\HolisticWare.Net.OAuth\Net\HTTP\Client.Fluent.API.cs" />
+  </ItemGroup>
+  <Import Project="..\HolisticWare.Net.OAuth\HolisticWare.Net.OAuth.projitems" Label="Shared" />
+</Project>
